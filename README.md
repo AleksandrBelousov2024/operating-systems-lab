@@ -39,3 +39,43 @@ fdisk /dev/sda
 
 mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt
+2.2. Установка базовой системы
+bash
+pacstrap /mnt base linux linux-firmware
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
+2.3. Настройка системы
+bash
+# Часовой пояс и локали
+ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+hwclock --systohc
+sed -i 's/^#en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
+locale-gen
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+
+# Имя хоста
+echo "archlinux" > /etc/hostname
+
+# Пароль root
+passwd  # пароль: root
+
+# Пользователь user (пароль: 123456)
+useradd -m -s /bin/bash user
+echo "user:123456" | chpasswd
+2.4. Установка и настройка SSH
+bash
+pacman -S openssh dhcpcd grub --noconfirm
+systemctl enable sshd dhcpcd
+2.5. Установка загрузчика GRUB
+bash
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+2.6. Завершение установки
+bash
+exit
+reboot
+3. Настройка проброса портов (NAT → SSH)
+В VirtualBox настроен проброс порта:
+
+Протокол	Хост-порт	Гостевой порт
+TCP	7022	22
