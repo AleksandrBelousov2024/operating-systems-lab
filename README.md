@@ -52,3 +52,38 @@
 ## Создание виртуальной машины
 
 [Всё в видео](lab2.mp4)
+
+
+# Лабораторная работа 3a: Разработка Bash-скрипта для конвертации изображений
+
+## Вариант 2: Преобразование JPG → JPEG2000 (JP2)
+
+### 1. Создание папки для работы
+<img width="318" height="58" alt="image" src="https://github.com/user-attachments/assets/5d585a52-c6e1-44c2-a35d-7c5bd198b0e7" />
+
+### 2. Создание тестовых изображений
+<img width="547" height="142" alt="image" src="https://github.com/user-attachments/assets/17b800bd-c5ee-461a-9a30-f22bd2e4a9ed" />
+
+### 3. При помощи общей папки создаем программу
+<img width="519" height="641" alt="image" src="https://github.com/user-attachments/assets/1ceb871c-4c78-4ef9-a6fb-6283809cb443" />
+<img width="822" height="202" alt="image" src="https://github.com/user-attachments/assets/1d4ddd0a-d5a0-48c0-9794-64fdb283a11d" />
+<img width="900" height="511" alt="image" src="https://github.com/user-attachments/assets/2484244d-9eef-4d9d-bb95-eaff0f2d3e73" />
+<img width="590" height="90" alt="image" src="https://github.com/user-attachments/assets/52656547-4b24-4104-a2b1-2a106ce0f931" />
+
+### 4. Копирование скрипта из общей папки
+<img width="513" height="20" alt="image" src="https://github.com/user-attachments/assets/c629040d-c4c5-40c0-a5c5-3f9aa44f07b8" />
+
+### 5. Установка dos2unix для удаления символов \r
+<img width="1286" height="367" alt="image" src="https://github.com/user-attachments/assets/e68d0874-9b82-40c8-9549-cece908e26dd" />
+
+### 6. Запуск скрипта и результат
+<img width="427" height="192" alt="image" src="https://github.com/user-attachments/assets/95012b81-0be9-44b0-b6fc-52c7bf6b3c51" />
+
+
+
+
+
+
+
+
+
