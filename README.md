@@ -1,6 +1,3 @@
-<img width="523" height="281" alt="image" src="https://github.com/user-attachments/assets/79ef08ad-4e7a-417c-b9fc-334075c0be17" /># operating-systems-lab
-Лабораторные работы по операционным системам
-
 # Лабораторная работа №1
 ## 1. Реализация функции на C++
 
