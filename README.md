@@ -1,4 +1,4 @@
-# operating-systems-lab
+<img width="523" height="281" alt="image" src="https://github.com/user-attachments/assets/79ef08ad-4e7a-417c-b9fc-334075c0be17" /># operating-systems-lab
 Лабораторные работы по операционным системам
 
 # Лабораторная работа №1
@@ -79,6 +79,36 @@
 
 ### 6. Запуск скрипта и результат
 <img width="427" height="192" alt="image" src="https://github.com/user-attachments/assets/95012b81-0be9-44b0-b6fc-52c7bf6b3c51" />
+
+# Лабораторная работа 3b: Разработка Bash-скрипта для конвертации изображений
+
+## Вариант 2: Преобразование JPG → JPEG2000 (JP2)
+
+### 1. Установка ImageMagick в Windows
+
+### 1. Установка ImageMagick.
+
+Был скачан установщик с официального сайта и установлен.
+После установки компьютер был перезагружен.
+<img width="1125" height="625" alt="image" src="https://github.com/user-attachments/assets/fe9d6e87-e496-4a7d-af74-dc9c8eab9847" />
+
+### 2. Создание папки для работы
+<img width="523" height="281" alt="image" src="https://github.com/user-attachments/assets/4d7bcda8-9de4-49bc-8bc5-0e87a16a6763" />
+
+### 3. Создание тестовых изображений
+<img width="589" height="322" alt="image" src="https://github.com/user-attachments/assets/83f33251-af92-461f-a2cb-689740628cc6" />
+
+### 4. Создание PowerShell-скрипта
+<img width="325" height="24" alt="image" src="https://github.com/user-attachments/assets/3f42c440-144b-43d9-891c-87508957cc03" />
+<img width="617" height="518" alt="image" src="https://github.com/user-attachments/assets/bb2dfa85-e1a8-4c89-b263-08b78ef36252" />
+
+### 5. Настройка выполнения скриптов
+<img width="609" height="45" alt="image" src="https://github.com/user-attachments/assets/5376c35f-1621-4804-b4c4-2ad70725cf7e" />
+
+### 6. Запуск скрипта и результат
+<img width="615" height="385" alt="image" src="https://github.com/user-attachments/assets/de444cbe-e585-4446-ac59-3209284688ff" />
+
+
 
 
 
